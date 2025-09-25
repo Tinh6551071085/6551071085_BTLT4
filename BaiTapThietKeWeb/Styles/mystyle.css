@@ -8,6 +8,17 @@
 
 }
 
+.highligt3 {
+    background-color: rgb(0, 34, 255);
+
+}
+
+.highligt4 {
+    background-color: rgb(255, 153, 0);
+}
+
+
+
 .center {
     text-align: center;
 }
@@ -32,16 +43,75 @@
 .muc1 li::marker {
     color: blue;
 }
+
 .tableMini {
-     padding: 0; height: 1px; 
-     font-size: 5px;
+    padding: 0;
+    height: 1px;
+    font-size: 5px;
 }
 
-.vuong{
+.vuong {
     list-style-type: square;
 }
 
-.tron{
+.tron {
     list-style-type: circle;
+}
+
+.box {
+    width: 50%;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+
+.donTrai {
+    float: left;
+}
+
+.khungDuoi {
+
+    border-bottom: 5px solid #000000;
+}
+
+.khungTren {
+    border-radius: 2px;
+    border-top: 5px solid #000000;
+}
+
+.khungPhai {
+    border-radius: 2px;
+
+    border-right: 5px solid #000000;
+}
+
+.khungTrai {
+    border-radius: 2px;
+    border-left: 5px solid #000000;
+}
+
+.menuNgang li {
+    list-style: none;
+
+    position: relative;
+
+}
+
+.menuNgang a {
+    text-decoration: none;
+}
+
+.menuDoc li {
+    list-style: none;
+
+  
+
+}
+
+.menuDoc a {
+    text-decoration: none;
+}
+.bold {
+    font-weight: bold;
 }
 
