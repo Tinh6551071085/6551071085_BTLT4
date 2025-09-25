@@ -1,0 +1,47 @@
+.highligt1 {
+    background-color: pink;
+    font-size: 40px;
+}
+
+.highligt2 {
+    background-color: blanchedalmond;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right
+}
+
+.gachchan {
+    text-decoration: underline;
+}
+
+.table1gach {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+.muc1 li::marker {
+    color: blue;
+}
+.tableMini {
+     padding: 0; height: 1px; 
+     font-size: 5px;
+}
+
+.vuong{
+    list-style-type: square;
+}
+
+.tron{
+    list-style-type: circle;
+}
+
